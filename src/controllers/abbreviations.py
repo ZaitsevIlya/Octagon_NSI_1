@@ -1,5 +1,5 @@
 from flask import request, jsonify
-from src.handlers.abbreviations import answer  # импорт функции из abbr.py
+from src.handlers.abbreviations import answer
 
 def handle_post():
   data = request.get_json()
