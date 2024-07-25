@@ -7,8 +7,6 @@ def handle_post():
   if not data:
     return jsonify({'error': 'Missing JSON data'}), 400
 
-  # print(data)
-
   response = {
     'no_abbr_message': answer(data["message"]),
     'received_data': data,

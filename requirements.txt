@@ -1,2 +1,4 @@
+waitress
+curl_cffi
 flask
 g4f
