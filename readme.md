@@ -1,6 +1,6 @@
 #### Инструкция
 1.  Установить необходимые библиотеки:  
-   `pip install flask g4f`
+   `pip install flask g4f curl_cffi`
 2.  Запустить файл index.py
 3.  По адресу http://127.0.0.1:5000/ отправить POST запрос в формате JSON:  
     `{
